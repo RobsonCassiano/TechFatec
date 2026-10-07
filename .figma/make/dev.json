@@ -1,0 +1,9 @@
+{
+
+  "installOn": [
+    "package.json",
+    "pnpm-lock.yaml"
+  ],
+  
+  "restartOn": []
+}

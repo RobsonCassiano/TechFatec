@@ -1,0 +1,10 @@
+{
+  "description": "Plataforma acadêmica colaborativa da FATEC para encontrar grupos de estudo, acessar materiais e acompanhar atividades.",
+  "robots": {
+    "index": false
+  },
+  "accessibility": {
+    "addBypassLinks": false,
+    "ignoreReducedMotion": false
+  }
+}

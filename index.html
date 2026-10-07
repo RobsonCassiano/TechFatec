@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TechFatec · Plataforma Acadêmica</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div id="app"></div>
+    <script type="module" src="./app.js"></script>
+    <svg class="accessibility-filters" aria-hidden="true" focusable="false">
+      <filter id="filter-achromatomaly" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.618 0.320 0.062 0 0 0.163 0.775 0.062 0 0 0.163 0.320 0.516 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-achromatopsia" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0.2126 0.7152 0.0722 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-deuteranomaly" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.800 0.200 0 0 0 0.258 0.742 0 0 0 0 0.142 0.858 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-deuteranopia" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.625 0.375 0 0 0 0.700 0.300 0 0 0 0 0.300 0.700 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-protanomaly" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.817 0.183 0 0 0 0.333 0.667 0 0 0 0 0.125 0.875 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-protanopia" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.567 0.433 0 0 0 0.558 0.442 0 0 0 0 0.242 0.758 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-tritanomaly" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.967 0.033 0 0 0 0 0.733 0.267 0 0 0.183 0.183 0.634 0 0 0 0 0 1 0" />
+      </filter>
+      <filter id="filter-tritanopia" color-interpolation-filters="sRGB">
+        <feColorMatrix type="matrix" values="0.950 0.050 0 0 0 0 0.433 0.567 0 0 0 0.475 0.525 0 0 0 0 0 1 0" />
+      </filter>
+    </svg>
+    <div vw class="enabled">
+      <div vw-access-button class="active"></div>
+      <div vw-plugin-wrapper>
+        <div class="vw-plugin-top-wrapper"></div>
+      </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+      new window.VLibras.Widget("https://vlibras.gov.br/app")
+    </script>
+  </body>
+</html>
